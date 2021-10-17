@@ -1,0 +1,11 @@
+name: LobbyFly
+main: net.slenky.lobbyfly.Main
+description: Simple lobby fly plugin for VIP ranks with auto-fly enabling upon join
+version: 1.0
+author: Slenky
+
+commands:
+  fly:
+    permission: lobbyfly.use
+    permission-message: "§cYou cannot use this command."
+    description: Toggle fly mode.
