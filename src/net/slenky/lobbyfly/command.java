@@ -13,10 +13,10 @@ public class fly implements CommandExecutor {
             Message.playerSend(p, "§cYou cannot use this command.");
         } else {
             if(p.getAllowFlight()) {
-                Message.playerSend(p, "§cFly deactivated!");
+                p.sendMessage("§cFly deactivated!");
                 p.setAllowFlight(false);
             } else {
-                Message.playerSend(p, "§aFly activated!");
+                p.sendMessage("§aFly activated!");
                 p.setAllowFlight(true);
             }
         }
